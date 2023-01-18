@@ -1,0 +1,94 @@
+.card-form{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  border-radius: 20px;
+ padding: 60px;
+ border: 10px solid red;
+ margin-top: 15px;
+}
+.card-form:hover{
+  cursor: pointer;
+animation-name: looz;
+animation-timing-function: linear;
+animation-iteration-count: 1;
+animation-duration: 1.3s;
+background-color: coral;
+
+}
+@keyframes looz {
+  0%{
+  transform:rotateY(360deg);
+}
+100%{
+  transform:rotateY(0deg);
+}
+50%{
+  transform:rotateY(180deg);
+
+}
+}
+.card-input{
+  font-family: 'Roboto Mono', monospace;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 30px;
+}
+.edit{
+  padding: 15px 30px;
+  border-radius: 15px;
+background-color: yellowgreen;
+}
+.edit:hover{
+  cursor: pointer;
+  background-color: blue;
+}
+.delete{
+  background-color: red;
+  border-radius: 15px;
+  padding: 15px 30px;
+  margin-left: 10px;
+}
+.delete:hover{
+cursor: pointer;
+
+}
+
+.cancel{
+
+  background-color: rgb(189, 147, 154);
+  max-width: 100px;
+  border-radius: 15px;
+  padding: 15px 30px;
+  margin-left: 10px;
+}
+.save{
+  background-color: rgb(36, 13, 58);
+  max-width: 100px;
+  color: azure;
+  border-radius: 15px;
+  padding: 15px 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.box{
+  border: 5px solid rosybrown;
+  padding: 10px;
+  margin-top: 20px;
+  transition-property: all;
+  transition-duration: 1s;
+}
+.fetch{
+  font-size: 30px;
+  font-weight: 400;
+}
+.usertitle{
+  font-size: 30px;
+  color: crimson;
+  font-family: 'Roboto Mono', monospace;
+}
+.box:hover{
+  transition-duration: 1s;
+  background-color: darkcyan;
+  box-shadow: 10px 10px 20px 5px;
+}
